@@ -1,0 +1,48 @@
+.panels
+  display: flex
+  flex-direction: column
+  height: auto
+  width: 100%
+  background: red
+  .panel-container
+    display: flex
+    flex-direction: row
+    align-self: center
+    justify-content: space-between
+    height: auto
+    width: 900px
+    margin: 40px 0
+    background: khaki
+    .panel-1, .panel-2, .panel-3
+      display: flex
+      flex-direction: column
+      height: auto
+      width: 200px
+      background: yellow
+
+      .icon-1-container, .icon-2-container, .icon-3-container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        height: 180px
+        width: 100%
+        background: purple
+
+        .icon-1, .icon-2, .icon-3
+          display: flex
+          height: 120px
+          width: 120px
+          background: red
+          align-self: center
+
+      .title-1, .title-2, .title-3
+        display: flex
+        height: 40px
+        background: pink
+
+
+      .desc-1, .desc-2, .desc-3
+        display: flex
+        padding: 0px 20px
+        font-family: $mainfont
+        line-height: 20px

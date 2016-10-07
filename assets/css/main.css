@@ -433,3 +433,71 @@ textarea {
           font: "Raleway", sans-serif; }
         .header .header-wrap .top-nav ul.desktop-nav a:hover, .header .header-wrap .top-nav a a:hover {
           text-decoration: underline; }
+
+.jumbotron {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  height: 400px;
+  width: 100%;
+  background: grey; }
+
+.panels {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: auto;
+  width: 100%;
+  background: red; }
+  .panels .panel-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    height: auto;
+    width: 900px;
+    margin: 40px 0;
+    background: khaki; }
+    .panels .panel-container .panel-1, .panels .panel-container .panel-2, .panels .panel-container .panel-3 {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      height: auto;
+      width: 200px;
+      background: yellow; }
+      .panels .panel-container .panel-1 .icon-1-container, .panels .panel-container .panel-1 .icon-2-container, .panels .panel-container .panel-1 .icon-3-container, .panels .panel-container .panel-2 .icon-1-container, .panels .panel-container .panel-2 .icon-2-container, .panels .panel-container .panel-2 .icon-3-container, .panels .panel-container .panel-3 .icon-1-container, .panels .panel-container .panel-3 .icon-2-container, .panels .panel-container .panel-3 .icon-3-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: center;
+            justify-content: center;
+        height: 180px;
+        width: 100%;
+        background: purple; }
+        .panels .panel-container .panel-1 .icon-1-container .icon-1, .panels .panel-container .panel-1 .icon-1-container .icon-2, .panels .panel-container .panel-1 .icon-1-container .icon-3, .panels .panel-container .panel-1 .icon-2-container .icon-1, .panels .panel-container .panel-1 .icon-2-container .icon-2, .panels .panel-container .panel-1 .icon-2-container .icon-3, .panels .panel-container .panel-1 .icon-3-container .icon-1, .panels .panel-container .panel-1 .icon-3-container .icon-2, .panels .panel-container .panel-1 .icon-3-container .icon-3, .panels .panel-container .panel-2 .icon-1-container .icon-1, .panels .panel-container .panel-2 .icon-1-container .icon-2, .panels .panel-container .panel-2 .icon-1-container .icon-3, .panels .panel-container .panel-2 .icon-2-container .icon-1, .panels .panel-container .panel-2 .icon-2-container .icon-2, .panels .panel-container .panel-2 .icon-2-container .icon-3, .panels .panel-container .panel-2 .icon-3-container .icon-1, .panels .panel-container .panel-2 .icon-3-container .icon-2, .panels .panel-container .panel-2 .icon-3-container .icon-3, .panels .panel-container .panel-3 .icon-1-container .icon-1, .panels .panel-container .panel-3 .icon-1-container .icon-2, .panels .panel-container .panel-3 .icon-1-container .icon-3, .panels .panel-container .panel-3 .icon-2-container .icon-1, .panels .panel-container .panel-3 .icon-2-container .icon-2, .panels .panel-container .panel-3 .icon-2-container .icon-3, .panels .panel-container .panel-3 .icon-3-container .icon-1, .panels .panel-container .panel-3 .icon-3-container .icon-2, .panels .panel-container .panel-3 .icon-3-container .icon-3 {
+          display: -ms-flexbox;
+          display: flex;
+          height: 120px;
+          width: 120px;
+          background: red;
+          -ms-flex-item-align: center;
+              align-self: center; }
+      .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-1, .panels .panel-container .panel-3 .title-2, .panels .panel-container .panel-3 .title-3 {
+        display: -ms-flexbox;
+        display: flex;
+        height: 40px;
+        background: pink; }
+      .panels .panel-container .panel-1 .desc-1, .panels .panel-container .panel-1 .desc-2, .panels .panel-container .panel-1 .desc-3, .panels .panel-container .panel-2 .desc-1, .panels .panel-container .panel-2 .desc-2, .panels .panel-container .panel-2 .desc-3, .panels .panel-container .panel-3 .desc-1, .panels .panel-container .panel-3 .desc-2, .panels .panel-container .panel-3 .desc-3 {
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0px 20px;
+        font-family: "Raleway", sans-serif;
+        line-height: 20px; }
