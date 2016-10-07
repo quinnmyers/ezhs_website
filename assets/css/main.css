@@ -363,3 +363,73 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */ }
+
+.home-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: pink;
+  min-height: 100vh;
+  width: 100vw;
+  height: auto; }
+
+.content-sections {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+      flex: 1;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 1000px;
+  height: auto;
+  background: lightskyblue; }
+
+.header {
+  width: 1000px;
+  height: 100px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background: khaki; }
+  .header .header-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    .header .header-wrap .brand {
+      display: -ms-flexbox;
+      display: flex;
+      height: 100px;
+      width: 400px;
+      margin-left: 15px;
+      background-image: url(/assets/images/ezhs_logo.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center; }
+    .header .header-wrap .top-nav {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: end;
+          align-items: flex-end;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      height: 100px;
+      width: 400px; }
+      .header .header-wrap .top-nav ul.desktop-nav, .header .header-wrap .top-nav a {
+        list-style: none;
+        text-decoration: none;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        margin-top: 25px;
+        background: lightskyblue;
+        color: #6B4086; }
+        .header .header-wrap .top-nav ul.desktop-nav li, .header .header-wrap .top-nav ul.desktop-nav a, .header .header-wrap .top-nav a li, .header .header-wrap .top-nav a a {
+          display: inline;
+          padding: 10px;
+          font: "Raleway", sans-serif; }
+        .header .header-wrap .top-nav ul.desktop-nav a:hover, .header .header-wrap .top-nav a a:hover {
+          text-decoration: underline; }

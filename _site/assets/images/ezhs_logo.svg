@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1478px" height="323px" viewBox="0 0 1478 323" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>ezhs_logo_final</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="55.8827953%" id="linearGradient-1">
+            <stop stop-color="#4D8ADB" offset="0%"></stop>
+            <stop stop-color="#643B62" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="161.5" cy="161.5" r="161.5"></circle>
+        <rect id="path-4" x="0" y="0" width="445" height="314.563758"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ezhs_logo_final">
+            <g id="Path-6-+-Path-5-+-Path-4-Mask">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" opacity="0.290869869" xlink:href="#path-2"></use>
+                <g mask="url(#mask-3)">
+                    <g transform="translate(-64.000000, 8.329605)">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <g id="Mask" stroke="none" fill="none"></g>
+                        <path d="M-33.9932513,148.899785 C-33.9932513,148.899785 85.0683564,64.0227034 214.245253,123.395422 C343.42215,182.768141 381.441432,209.021054 381.441432,209.021054 L380.619276,280.50947 L-31.0371879,254.606181 L-33.9932513,148.899785 Z" id="Path-6" stroke="none" fill="#C57246" fill-rule="evenodd" mask="url(#mask-5)"></path>
+                        <path d="M126.939578,213.607863 C126.939578,213.607863 210.787092,155.875667 333.799353,140.685107 C456.811614,125.494547 604.134432,286.194446 604.134432,286.194446 L150.855979,272.693718 L126.939578,213.607863 Z" id="Path-5" stroke="none" fill="#ABA633" fill-rule="evenodd" mask="url(#mask-5)"></path>
+                        <path d="M-66.3282741,196.73378 C-66.3282741,196.73378 64.4590451,101.896995 150.625226,169.23927 C236.791407,236.581545 470.520555,196.877214 470.520555,196.877214 L470.520555,346.770255 L-57.18073,346.770255" id="Path-4" stroke="none" fill="#6B4086" fill-rule="evenodd" mask="url(#mask-5)"></path>
+                    </g>
+                </g>
+            </g>
+            <text id="e-z" font-family="Raleway-SemiBold, Raleway" font-size="180" font-weight="500" fill="#FFFFFF">
+                <tspan x="41" y="217">e z</tspan>
+            </text>
+            <ellipse id="Oval-6" fill="#FFFFFF" cx="172" cy="164" rx="13" ry="13"></ellipse>
+            <text id="home-staging" font-family="Raleway-Regular, Raleway" font-size="180" font-weight="normal" fill="#6B4086">
+                <tspan x="350" y="223">home staging</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
