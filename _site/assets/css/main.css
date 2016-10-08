@@ -374,7 +374,7 @@ textarea {
   width: 100vw;
   height: auto; }
 
-.content-sections {
+.content-sections-1, .content-sections-2 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex: 1;
@@ -384,6 +384,15 @@ textarea {
   width: 1000px;
   height: auto;
   background: lightskyblue; }
+
+.about-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: #6B4086;
+  width: 100vw;
+  height: auto; }
 
 .header {
   width: 1000px;
@@ -487,7 +496,7 @@ textarea {
           display: flex;
           height: 120px;
           width: 120px;
-          background: red;
+          background: pink;
           -ms-flex-item-align: center;
               align-self: center; }
       .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-1, .panels .panel-container .panel-3 .title-2, .panels .panel-container .panel-3 .title-3 {
@@ -501,3 +510,154 @@ textarea {
         padding: 0px 20px;
         font-family: "Raleway", sans-serif;
         line-height: 20px; }
+
+.about {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .about p {
+    max-width: 900px;
+    margin: 40px 0;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 18;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1px; }
+
+.comparison {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: auto;
+  width: 100%;
+  background: yellow; }
+  .comparison .cta {
+    display: -ms-flexbox;
+    display: flex;
+    background: orange;
+    height: auto;
+    width: auto;
+    max-width: 700px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+    font-family: "Raleway", sans-serif;
+    color: #292F36; }
+    .comparison .cta p {
+      margin: 0; }
+  .comparison .home-size {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    height: auto;
+    max-width: 200px;
+    background: orange;
+    margin-top: 30px; }
+    .comparison .home-size p {
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      color: #292F36;
+      font-size: 24px;
+      font-weight: bold; }
+    .comparison .home-size .icon {
+      display: -ms-flexbox;
+      display: flex;
+      height: 100px;
+      width: 100px;
+      background: salmon; }
+  .comparison .comparison-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    background: lightgrey;
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 900px;
+    height: 1000px;
+    margin-top: 30px; }
+    .comparison .comparison-container .standard-company, .comparison .comparison-container .ezhs {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      width: 360px;
+      background: lightskyblue;
+      height: 300px; }
+      .comparison .comparison-container .standard-company .breakdown-container, .comparison .comparison-container .ezhs .breakdown-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        margin-top: -40px; }
+      .comparison .comparison-container .standard-company .title, .comparison .comparison-container .ezhs .title {
+        height: 30px;
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        color: #292F36;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 3px solid #6B4086; }
+        .comparison .comparison-container .standard-company .title p, .comparison .comparison-container .ezhs .title p {
+          margin: 0; }
+      .comparison .comparison-container .standard-company .total-container, .comparison .comparison-container .ezhs .total-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+            flex-direction: row;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-item-align: center;
+            align-self: center;
+        bottom: 0 auto !important;
+        height: 50px;
+        width: 100%;
+        background: red; }
+        .comparison .comparison-container .standard-company .total-container .total-price, .comparison .comparison-container .ezhs .total-container .total-price {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: row;
+              flex-direction: row;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+          width: 100%;
+          color: blue;
+          font-family: "Raleway", sans-serif;
+          font-size: 14pt;
+          font-weight: bold;
+          -ms-flex-align: center;
+              align-items: center; }
+          .comparison .comparison-container .standard-company .total-container .total-price .total, .comparison .comparison-container .ezhs .total-container .total-price .total {
+            display: -ms-flexbox;
+            display: flex;
+            margin: 0; }
+          .comparison .comparison-container .standard-company .total-container .total-price .number, .comparison .comparison-container .ezhs .total-container .total-price .number {
+            display: -ms-flexbox;
+            display: flex;
+            color: black;
+            background: green; }
+        .comparison .comparison-container .standard-company .total-container .icon-thumbdown, .comparison .comparison-container .ezhs .total-container .icon-thumbdown {
+          height: 50px;
+          width: 50px;
+          background: pink; }
+        .comparison .comparison-container .standard-company .total-container .icon-thumbup, .comparison .comparison-container .ezhs .total-container .icon-thumbup {
+          height: 50px;
+          width: 50px;
+          background: pink; }
