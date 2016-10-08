@@ -51,11 +51,35 @@
     height: 1000px
     margin-top: 30px
 
+    .standard-company-container
+      display: flex
+      flex-direction: column
+      height: 600px
+      width: 360px
+      background: orange
+
+    .ezhs-container
+      display: flex
+      flex-direction: column
+      height: 600px
+      width: 360px
+      background: orange
+
+
+    .standard-company-container, .ezhs-container
+      .desc
+        font-family: $mainfont
+        color: $gunmetal
+        font-size: 12pt
+        padding: 0 20px
+        line-height: 25px
+        text-align: center
+        font-weight: bold
+
     .standard-company, .ezhs
       display: flex
       flex-direction: column
       justify-content: space-between
-      width: 360px
       background: lightskyblue
       height: 300px
 
@@ -104,6 +128,7 @@
             display: flex
             color: black
             background: green
+            margin-right: 10px
         .icon-thumbdown
           height: 50px
           width: 50px
