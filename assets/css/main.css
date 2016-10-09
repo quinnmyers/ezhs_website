@@ -473,7 +473,8 @@ textarea {
         justify-content: space-between;
     height: auto;
     width: 900px;
-    margin: 40px 0; }
+    margin-top: 40px;
+    margin-bottom: 30px; }
     .panels .panel-container .panel-1, .panels .panel-container .panel-2, .panels .panel-container .panel-3 {
       display: -ms-flexbox;
       display: flex;
