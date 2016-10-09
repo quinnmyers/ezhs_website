@@ -400,8 +400,7 @@ textarea {
   width: 1000px;
   height: 100px;
   -ms-flex-item-align: center;
-      align-self: center;
-  background: khaki; }
+      align-self: center; }
   .header .header-wrap {
     display: -ms-flexbox;
     display: flex;
@@ -434,9 +433,8 @@ textarea {
         list-style: none;
         text-decoration: none;
         font-family: "Raleway", sans-serif;
-        font-size: 18px;
+        font-size: 12pt;
         margin-top: 25px;
-        background: lightskyblue;
         color: #6B4086; }
         .header .header-wrap .top-nav ul.desktop-nav li, .header .header-wrap .top-nav ul.desktop-nav a, .header .header-wrap .top-nav a li, .header .header-wrap .top-nav a a {
           display: inline;
@@ -452,7 +450,10 @@ textarea {
       flex-direction: row;
   height: 400px;
   width: 100%;
-  background: grey; }
+  background-image: url(/assets/images/hero_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 40%; }
 
 .panels {
   display: -ms-flexbox;
@@ -460,8 +461,7 @@ textarea {
   -ms-flex-direction: column;
       flex-direction: column;
   height: auto;
-  width: 100%;
-  background: red; }
+  width: 100%; }
   .panels .panel-container {
     display: -ms-flexbox;
     display: flex;
@@ -473,16 +473,14 @@ textarea {
         justify-content: space-between;
     height: auto;
     width: 900px;
-    margin: 40px 0;
-    background: khaki; }
+    margin: 40px 0; }
     .panels .panel-container .panel-1, .panels .panel-container .panel-2, .panels .panel-container .panel-3 {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
           flex-direction: column;
       height: auto;
-      width: 200px;
-      background: yellow; }
+      width: 200px; }
       .panels .panel-container .panel-1 .icon-1-container, .panels .panel-container .panel-1 .icon-2-container, .panels .panel-container .panel-1 .icon-3-container, .panels .panel-container .panel-2 .icon-1-container, .panels .panel-container .panel-2 .icon-2-container, .panels .panel-container .panel-2 .icon-3-container, .panels .panel-container .panel-3 .icon-1-container, .panels .panel-container .panel-3 .icon-2-container, .panels .panel-container .panel-3 .icon-3-container {
         display: -ms-flexbox;
         display: flex;
@@ -491,27 +489,59 @@ textarea {
         -ms-flex-pack: center;
             justify-content: center;
         height: 180px;
-        width: 100%;
-        background: purple; }
+        width: 198px; }
         .panels .panel-container .panel-1 .icon-1-container .icon-1, .panels .panel-container .panel-1 .icon-1-container .icon-2, .panels .panel-container .panel-1 .icon-1-container .icon-3, .panels .panel-container .panel-1 .icon-2-container .icon-1, .panels .panel-container .panel-1 .icon-2-container .icon-2, .panels .panel-container .panel-1 .icon-2-container .icon-3, .panels .panel-container .panel-1 .icon-3-container .icon-1, .panels .panel-container .panel-1 .icon-3-container .icon-2, .panels .panel-container .panel-1 .icon-3-container .icon-3, .panels .panel-container .panel-2 .icon-1-container .icon-1, .panels .panel-container .panel-2 .icon-1-container .icon-2, .panels .panel-container .panel-2 .icon-1-container .icon-3, .panels .panel-container .panel-2 .icon-2-container .icon-1, .panels .panel-container .panel-2 .icon-2-container .icon-2, .panels .panel-container .panel-2 .icon-2-container .icon-3, .panels .panel-container .panel-2 .icon-3-container .icon-1, .panels .panel-container .panel-2 .icon-3-container .icon-2, .panels .panel-container .panel-2 .icon-3-container .icon-3, .panels .panel-container .panel-3 .icon-1-container .icon-1, .panels .panel-container .panel-3 .icon-1-container .icon-2, .panels .panel-container .panel-3 .icon-1-container .icon-3, .panels .panel-container .panel-3 .icon-2-container .icon-1, .panels .panel-container .panel-3 .icon-2-container .icon-2, .panels .panel-container .panel-3 .icon-2-container .icon-3, .panels .panel-container .panel-3 .icon-3-container .icon-1, .panels .panel-container .panel-3 .icon-3-container .icon-2, .panels .panel-container .panel-3 .icon-3-container .icon-3 {
           display: -ms-flexbox;
           display: flex;
-          height: 120px;
-          width: 120px;
-          background: pink;
+          height: 100px;
+          width: 100px;
           -ms-flex-item-align: center;
-              align-self: center; }
+              align-self: center;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain; }
+      .panels .panel-container .panel-1 .icon-1-container, .panels .panel-container .panel-2 .icon-1-container, .panels .panel-container .panel-3 .icon-1-container {
+        border: 1px solid #C57246; }
+        .panels .panel-container .panel-1 .icon-1-container .icon-1, .panels .panel-container .panel-2 .icon-1-container .icon-1, .panels .panel-container .panel-3 .icon-1-container .icon-1 {
+          background-image: url(/assets/images/brush_icon.svg); }
+      .panels .panel-container .panel-1 .icon-2-container, .panels .panel-container .panel-2 .icon-2-container, .panels .panel-container .panel-3 .icon-2-container {
+        border: 1px solid #ABA633; }
+        .panels .panel-container .panel-1 .icon-2-container .icon-2, .panels .panel-container .panel-2 .icon-2-container .icon-2, .panels .panel-container .panel-3 .icon-2-container .icon-2 {
+          background-image: url(/assets/images/cash_icon.svg); }
+      .panels .panel-container .panel-1 .icon-3-container, .panels .panel-container .panel-2 .icon-3-container, .panels .panel-container .panel-3 .icon-3-container {
+        border: 1px solid #A2AEC0; }
+        .panels .panel-container .panel-1 .icon-3-container .icon-3, .panels .panel-container .panel-2 .icon-3-container .icon-3, .panels .panel-container .panel-3 .icon-3-container .icon-3 {
+          background-image: url(/assets/images/timer_icon.svg); }
       .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-1, .panels .panel-container .panel-3 .title-2, .panels .panel-container .panel-3 .title-3 {
         display: -ms-flexbox;
         display: flex;
         height: 40px;
-        background: pink; }
+        width: 100%;
+        background: pink;
+        -ms-flex-pack: center;
+            justify-content: center;
+        -ms-flex-align: center;
+            align-items: center; }
+        .panels .panel-container .panel-1 .title-1 p, .panels .panel-container .panel-1 .title-2 p, .panels .panel-container .panel-1 .title-3 p, .panels .panel-container .panel-2 .title-1 p, .panels .panel-container .panel-2 .title-2 p, .panels .panel-container .panel-2 .title-3 p, .panels .panel-container .panel-3 .title-1 p, .panels .panel-container .panel-3 .title-2 p, .panels .panel-container .panel-3 .title-3 p {
+          color: white;
+          font-family: "Raleway", sans-serif;
+          letter-spacing: 1px;
+          font-weight: 300;
+          font-size: 18px;
+          margin: 0; }
+      .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-3 .title-1 {
+        background: #C57246; }
+      .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-3 .title-2 {
+        background: #ABA633; }
+      .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-3 {
+        background: #A2AEC0; }
       .panels .panel-container .panel-1 .desc-1, .panels .panel-container .panel-1 .desc-2, .panels .panel-container .panel-1 .desc-3, .panels .panel-container .panel-2 .desc-1, .panels .panel-container .panel-2 .desc-2, .panels .panel-container .panel-2 .desc-3, .panels .panel-container .panel-3 .desc-1, .panels .panel-container .panel-3 .desc-2, .panels .panel-container .panel-3 .desc-3 {
         display: -ms-flexbox;
         display: flex;
-        padding: 0px 20px;
+        padding: 0px 10px;
         font-family: "Raleway", sans-serif;
-        line-height: 20px; }
+        line-height: 20px;
+        text-align: center; }
 
 .about {
   display: -ms-flexbox;
@@ -534,12 +564,10 @@ textarea {
   -ms-flex-direction: column;
       flex-direction: column;
   height: auto;
-  width: 100%;
-  background: yellow; }
+  width: 100%; }
   .comparison .cta {
     display: -ms-flexbox;
     display: flex;
-    background: orange;
     height: auto;
     width: auto;
     max-width: 700px;
@@ -563,10 +591,10 @@ textarea {
         align-self: center;
     height: auto;
     max-width: 200px;
-    background: orange;
     margin-top: 30px; }
     .comparison .home-size p {
       margin: 0;
+      margin-top: 5px;
       font-family: "Raleway", sans-serif;
       color: #292F36;
       font-size: 24px;
@@ -576,7 +604,10 @@ textarea {
       display: flex;
       height: 100px;
       width: 100px;
-      background: salmon; }
+      background-image: url(/assets/images/house_icon_2.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
   .comparison .comparison-container {
     display: -ms-flexbox;
     display: flex;
@@ -584,7 +615,6 @@ textarea {
         flex-direction: row;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    background: lightgrey;
     -ms-flex-item-align: center;
         align-self: center;
     width: 900px;
@@ -596,16 +626,16 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
       height: auto;
-      width: 360px;
-      background: orange; }
+      width: 360px; }
     .comparison .comparison-container .ezhs-container {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-direction: column;
           flex-direction: column;
       height: auto;
-      width: 360px;
-      background: orange; }
+      width: 360px; }
+      .comparison .comparison-container .ezhs-container .ezhs .breakdown-container {
+        margin-top: -90px; }
     .comparison .comparison-container .standard-company-container .desc, .comparison .comparison-container .ezhs-container .desc {
       font-family: "Raleway", sans-serif;
       color: #292F36;
@@ -621,7 +651,6 @@ textarea {
           flex-direction: column;
       -ms-flex-pack: justify;
           justify-content: space-between;
-      background: lightskyblue;
       height: 300px; }
       .comparison .comparison-container .standard-company .breakdown-container, .comparison .comparison-container .ezhs .breakdown-container {
         display: -ms-flexbox;
@@ -630,7 +659,9 @@ textarea {
             flex-direction: row;
         -ms-flex-pack: justify;
             justify-content: space-between;
-        margin-top: -40px; }
+        margin-top: -30px;
+        font-family: "Raleway", sans-serif;
+        color: #292F36; }
       .comparison .comparison-container .standard-company .title, .comparison .comparison-container .ezhs .title {
         height: 30px;
         width: 100%;
@@ -642,7 +673,11 @@ textarea {
         border-bottom: 3px solid #6B4086; }
         .comparison .comparison-container .standard-company .title p, .comparison .comparison-container .ezhs .title p {
           margin: 0; }
-      .comparison .comparison-container .standard-company .total-container, .comparison .comparison-container .ezhs .total-container {
+      .comparison .comparison-container .standard-company .total-container-1, .comparison .comparison-container .ezhs .total-container-1 {
+        border: 2px solid #E74C3C; }
+      .comparison .comparison-container .standard-company .total-container-2, .comparison .comparison-container .ezhs .total-container-2 {
+        border: 2px solid #2ECC71; }
+      .comparison .comparison-container .standard-company .total-container-1, .comparison .comparison-container .standard-company .total-container-2, .comparison .comparison-container .ezhs .total-container-1, .comparison .comparison-container .ezhs .total-container-2 {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-direction: row;
@@ -653,9 +688,8 @@ textarea {
             align-self: center;
         bottom: 0 auto !important;
         height: 50px;
-        width: 100%;
-        background: red; }
-        .comparison .comparison-container .standard-company .total-container .total-price, .comparison .comparison-container .ezhs .total-container .total-price {
+        width: 100%; }
+        .comparison .comparison-container .standard-company .total-container-1 .total-price, .comparison .comparison-container .standard-company .total-container-2 .total-price, .comparison .comparison-container .ezhs .total-container-1 .total-price, .comparison .comparison-container .ezhs .total-container-2 .total-price {
           display: -ms-flexbox;
           display: flex;
           -ms-flex-direction: row;
@@ -663,30 +697,48 @@ textarea {
           -ms-flex-pack: justify;
               justify-content: space-between;
           width: 100%;
-          color: blue;
+          color: #292F36;
           font-family: "Raleway", sans-serif;
           font-size: 14pt;
           font-weight: bold;
           -ms-flex-align: center;
-              align-items: center; }
-          .comparison .comparison-container .standard-company .total-container .total-price .total, .comparison .comparison-container .ezhs .total-container .total-price .total {
+              align-items: center;
+          margin-left: 5px; }
+          .comparison .comparison-container .standard-company .total-container-1 .total-price .total, .comparison .comparison-container .standard-company .total-container-2 .total-price .total, .comparison .comparison-container .ezhs .total-container-1 .total-price .total, .comparison .comparison-container .ezhs .total-container-2 .total-price .total {
             display: -ms-flexbox;
             display: flex;
             margin: 0; }
-          .comparison .comparison-container .standard-company .total-container .total-price .number, .comparison .comparison-container .ezhs .total-container .total-price .number {
+          .comparison .comparison-container .standard-company .total-container-1 .total-price .number, .comparison .comparison-container .standard-company .total-container-2 .total-price .number, .comparison .comparison-container .ezhs .total-container-1 .total-price .number, .comparison .comparison-container .ezhs .total-container-2 .total-price .number {
             display: -ms-flexbox;
             display: flex;
-            color: black;
-            background: green;
+            color: #292F36;
             margin-right: 10px; }
-        .comparison .comparison-container .standard-company .total-container .icon-thumbdown, .comparison .comparison-container .ezhs .total-container .icon-thumbdown {
-          height: 50px;
-          width: 50px;
-          background: pink; }
-        .comparison .comparison-container .standard-company .total-container .icon-thumbup, .comparison .comparison-container .ezhs .total-container .icon-thumbup {
-          height: 50px;
-          width: 50px;
-          background: pink; }
+        .comparison .comparison-container .standard-company .total-container-1 .icon-thumbdown, .comparison .comparison-container .standard-company .total-container-2 .icon-thumbdown, .comparison .comparison-container .ezhs .total-container-1 .icon-thumbdown, .comparison .comparison-container .ezhs .total-container-2 .icon-thumbdown {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-item-align: center;
+              align-self: center;
+          margin-top: 5px;
+          height: 40px;
+          width: 40px;
+          margin-right: 5px;
+          background-image: url(/assets/images/thumbdown_icon.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain; }
+        .comparison .comparison-container .standard-company .total-container-1 .icon-thumbup, .comparison .comparison-container .standard-company .total-container-2 .icon-thumbup, .comparison .comparison-container .ezhs .total-container-1 .icon-thumbup, .comparison .comparison-container .ezhs .total-container-2 .icon-thumbup {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-item-align: center;
+              align-self: center;
+          margin-bottom: 5px;
+          height: 40px;
+          width: 40px;
+          margin-right: 5px;
+          background-image: url(/assets/images/thumbup_icon.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain; }
   .comparison .before-after-1 {
     display: -ms-flexbox;
     display: flex;
@@ -705,7 +757,8 @@ textarea {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  height: auto; }
+  height: auto;
+  margin-bottom: 20px; }
   .contact .contact-cta {
     display: -ms-flexbox;
     display: flex;
@@ -724,8 +777,7 @@ textarea {
           justify-content: center;
       width: 650px;
       margin-bottom: 40px;
-      text-align: center;
-      background: red; }
+      text-align: center; }
       .contact .contact-cta .headline p {
         margin: 0;
         font-family: "Raleway", sans-serif;
@@ -739,8 +791,7 @@ textarea {
       -ms-flex-pack: center;
           justify-content: center;
       text-align: center;
-      width: 650px;
-      background: blue; }
+      width: 650px; }
       .contact .contact-cta .cta-text p {
         margin: 0;
         font-family: "Raleway", sans-serif;
@@ -786,13 +837,13 @@ textarea {
       .contact .contact-form .form-container .phone .yourname,
       .contact .contact-form .form-container .phone .youremail,
       .contact .contact-form .form-container .phone .yourphone {
-        width: 200px;
+        width: 350px;
         height: 30px;
         border: 1px solid #6B4086;
         border-radius: 3px; }
       .contact .contact-form .form-container .message .yourmessage {
-        width: 420px;
-        height: 150px;
+        width: 550px;
+        height: 200px;
         border: 1px solid #6B4086;
         border-radius: 3px;
         text-align: top;
@@ -823,7 +874,7 @@ textarea {
       justify-content: space-around;
   -ms-flex-align: center;
       align-items: center;
-  background: yellow; }
+  margin-bottom: 25px; }
   .footer .ezhs-footer {
     display: -ms-flexbox;
     display: flex;
@@ -843,9 +894,23 @@ textarea {
     .footer .ezhs-footer .ezhs-facebook {
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      border-radius: 100%;
       height: 40px;
       width: 40px;
       background: #6B4086; }
+      .footer .ezhs-footer .ezhs-facebook .icon {
+        display: -ms-flexbox;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        background-image: url(/assets/images/facebook_icon.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }
   .footer .sfd-footer {
     display: -ms-flexbox;
     display: flex;
@@ -865,6 +930,20 @@ textarea {
     .footer .sfd-footer .sfd-facebook {
       display: -ms-flexbox;
       display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      border-radius: 100%;
       height: 40px;
       width: 40px;
       background: #25458a; }
+      .footer .sfd-footer .sfd-facebook .icon {
+        display: -ms-flexbox;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        background-image: url(/assets/images/facebook_icon.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center; }

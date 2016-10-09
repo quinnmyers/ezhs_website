@@ -3,11 +3,9 @@
   flex-direction: column
   height: auto
   width: 100%
-  background: yellow
 
   .cta
     display: flex
-    background: orange
     height: auto
     width: auto
     max-width: 700px
@@ -27,10 +25,10 @@
     align-self: center
     height: auto
     max-width: 200px
-    background: orange
     margin-top: 30px
     p
       margin: 0
+      margin-top: 5px
       font-family: $mainfont
       color: $gunmetal
       font-size: 24px
@@ -39,13 +37,16 @@
       display: flex
       height: 100px
       width: 100px
-      background: salmon
+      background:
+        image: url(/assets/images/house_icon_2.svg)
+        size: contain
+        position: center
+        repeat: no-repeat
 
   .comparison-container
     display: flex
     flex-direction: row
     justify-content: space-between
-    background: lightgrey
     align-self: center
     width: 900px
     height: auto
@@ -56,14 +57,15 @@
       flex-direction: column
       height: auto
       width: 360px
-      background: orange
 
     .ezhs-container
       display: flex
       flex-direction: column
       height: auto
       width: 360px
-      background: orange
+      .ezhs
+        .breakdown-container
+          margin-top: -90px
 
 
     .standard-company-container, .ezhs-container
@@ -80,14 +82,17 @@
       display: flex
       flex-direction: column
       justify-content: space-between
-      background: lightskyblue
       height: 300px
 
       .breakdown-container
         display: flex
         flex-direction: row
         justify-content: space-between
-        margin-top: -40px
+        margin-top: -30px
+        font-family: $mainfont
+        color: $gunmetal
+
+
 
       .title
         height: 30px
@@ -101,8 +106,13 @@
         p
           margin: 0
 
+      .total-container-1
+        border: 2px solid $red
 
-      .total-container
+      .total-container-2
+        border: 2px solid $green
+
+      .total-container-1, .total-container-2
         display: flex
         flex-direction: row
         justify-content: space-between
@@ -110,33 +120,49 @@
         bottom: 0 auto !important
         height: 50px
         width: 100%
-        background: red
+
         .total-price
           display: flex
           flex-direction: row
           justify-content: space-between
           width: 100%
-          color: blue
+          color: $gunmetal
           font-family: $mainfont
           font-size: 14pt
           font-weight: bold
           align-items: center
+          margin-left: 5px
           .total
             display: flex
             margin: 0
           .number
             display: flex
-            color: black
-            background: green
+            color: $gunmetal
             margin-right: 10px
         .icon-thumbdown
-          height: 50px
-          width: 50px
-          background: pink
+          display: flex
+          align-self: center
+          margin-top: 5px
+          height: 40px
+          width: 40px
+          margin-right: 5px
+          background:
+            image: url(/assets/images/thumbdown_icon.svg)
+            position: center
+            repeat: no-repeat
+            size: contain
         .icon-thumbup
-          height: 50px
-          width: 50px
-          background: pink
+          display: flex
+          align-self: center
+          margin-bottom: 5px
+          height: 40px
+          width: 40px
+          margin-right: 5px
+          background:
+            image: url(/assets/images/thumbup_icon.svg)
+            position: center
+            repeat: no-repeat
+            size: contain
 
   .before-after-1
     display: flex
