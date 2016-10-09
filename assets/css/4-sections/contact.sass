@@ -1,0 +1,93 @@
+.contact
+  display: flex
+  flex-direction: column
+  height: auto
+  .contact-cta
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .headline
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 650px
+      margin-bottom: 40px
+      text-align: center
+      background: red
+      p
+        margin: 0
+        font-family: $mainfont
+        font-size: 22pt
+        font-weight: bold
+    .cta-text
+      display: flex
+      align-items: center
+      justify-content: center
+      text-align: center
+      width: 650px
+      background: blue
+      p
+        margin: 0
+        font-family: $mainfont
+        font-size: 14px
+        line-height: 25px
+        letter-spacing: 1px
+        font-weight: 600
+
+  .contact-form
+    margin: auto
+    margin-top: 40px
+    margin-bottom: 40px
+    color: $purple
+    .form-container
+      display: flex
+      .name,
+      .email,
+      .phone,
+      .message
+        p
+          font-family: $mainfont
+          font-size: 14px
+          text-decoration: underline
+          padding: 0
+          margin: 0
+          margin-bottom: 5px
+        input
+          margin-bottom: 10px
+          font-family: $mainfont
+        textarea
+          font-family: $mainfont
+      .name,
+      .email,
+      .phone
+        .yourname,
+        .youremail,
+        .yourphone
+          width: 200px
+          height: 30px
+          border: 1px solid $purple
+          border-radius: 3px
+      .message
+        .yourmessage
+          width: 420px
+          height: 150px
+          border: 1px solid $purple
+          border-radius: 3px
+          text-align: top
+          resize: none
+      .button
+        .submitbutton
+          width: 100px
+          color: white
+          height: 35px
+          font-family: $mainfont
+          float: right
+          border-radius: 3px
+          background: $purple
+          border: 1px solid white
+
+        .submitbutton:hover
+          background-color: $green
+          color: white
+          border: 1px solid white

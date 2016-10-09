@@ -1,0 +1,24 @@
+section.contact
+  .contact-cta
+    .headline
+      p TRUST US TO HELP YOU SELL YOUR HOME
+    .cta-text
+      P Don’t wait to email us, we have a limited amount of furniture and accessory kits availalbe. Remember, there is no risk to you. You don’t pay us unless your home sells. Take the first step towards selling your home  quickly for the price you want and email us today.
+
+  .contact-form
+    .form-container
+      form(action="https://formspree.io/your@email.com" method="POST")
+        .name
+          p Name
+          input(type="text" name="name" class="yourname")
+        .email
+          p Your E-Mail
+          input(type="email" name="_replyto" class="youremail")
+        .phone
+          p Your Phone Number
+          input(type="text" name="_phone" class="yourphone")
+        .message
+          p Message
+          textarea(type="message" name="_message" class="yourmessage")
+        .button
+          input(type="submit" value="Send" class="submitbutton")
