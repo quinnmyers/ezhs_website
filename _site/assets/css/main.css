@@ -443,17 +443,121 @@ textarea {
         .header .header-wrap .top-nav ul.desktop-nav a:hover, .header .header-wrap .top-nav a a:hover {
           text-decoration: underline; }
 
+@media (max-width: 1000px) {
+  .header {
+    width: 100% !important; } }
+
+@media (max-width: 940px) {
+  .header {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    height: 80px !important; }
+    .header .brand {
+      height: 60px !important;
+      width: 300px !important;
+      -ms-flex-item-align: center !important;
+          align-self: center !important; }
+    .header .top-nav {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      width: auto !important;
+      -ms-flex-item-align: center !important;
+          align-self: center !important; }
+      .header .top-nav ul.desktop-nav, .header .top-nav a {
+        font-size: 12pt !important; } }
+
 .jumbotron {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  -ms-flex-direction: column;
+      flex-direction: column;
   height: 400px;
   width: 100%;
   background-image: url(/assets/images/hero_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 20% 40%; }
+  .jumbotron .jumbotron-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin-right: 20px;
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 1000px;
+    height: auto; }
+    .jumbotron .jumbotron-text a, .jumbotron .jumbotron-text a:visited {
+      text-decoration: none; }
+    .jumbotron .jumbotron-text a:hover {
+      background: rgba(46, 204, 113, 0.6); }
+    .jumbotron .jumbotron-text .headline {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+      -ms-flex-pack: center;
+          justify-content: center;
+      height: auto;
+      width: 480px;
+      background: rgba(0, 0, 0, 0.6);
+      margin-top: 30px; }
+      .jumbotron .jumbotron-text .headline p {
+        margin: 0;
+        padding: 8px 4px;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+        font-size: 32pt;
+        font-weight: 600;
+        color: white; }
+    .jumbotron .jumbotron-text .jumbo-desc {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+      -ms-flex-pack: center;
+          justify-content: center;
+      height: auto;
+      width: 410px;
+      background: rgba(0, 0, 0, 0.6);
+      margin-top: 40px; }
+      .jumbotron .jumbotron-text .jumbo-desc p {
+        text-align: right;
+        font-family: "Raleway", sans-serif;
+        font-size: 14pt;
+        font-weight: 400;
+        margin: 0;
+        margin-right: 8px;
+        color: white;
+        line-height: 25px;
+        letter-spacing: .1px; }
+    .jumbotron .jumbotron-text .jumbo-btn {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+      height: 45px;
+      width: 170px;
+      border-radius: 3px;
+      border: 1px solid white;
+      background: rgba(0, 0, 0, 0.6);
+      margin-top: 40px; }
+      .jumbotron .jumbotron-text .jumbo-btn p {
+        margin: 0;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 11pt; }
 
 .panels {
   display: -ms-flexbox;

@@ -39,3 +39,27 @@
           font: $mainfont
         a:hover
           text-decoration: underline
+
+
+@media (max-width: 1000px)
+  .header
+    width: 100% !important
+
+
+@media (max-width: 940px)
+  .header
+    display: flex !important
+    flex-direction: column !important
+    justify-content: space-between !important
+    height: 80px !important
+    .brand
+      height: 60px !important
+      width: 300px !important
+      align-self: center !important
+
+    .top-nav
+      display: flex !important
+      width: auto !important
+      align-self: center !important
+      ul.desktop-nav, a
+        font-size: 12pt !important

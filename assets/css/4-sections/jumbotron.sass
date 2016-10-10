@@ -1,6 +1,6 @@
 .jumbotron
   display: flex
-  flex-direction: row
+  flex-direction: column
   height: 400px
   width: 100%
   background:
@@ -8,3 +8,69 @@
     size: cover
     repeat: no-repeat
     position: 20% 40%
+  .jumbotron-text
+    display: flex
+    flex-direction: column
+    margin-right: 20px
+    align-self: center
+    width: 1000px
+    height: auto
+    a, a:visited
+      text-decoration: none
+    a:hover
+      background: rgba(46,204,113,0.6)
+
+    .headline
+      display: flex
+      align-self: flex-end
+      justify-content: center
+      height: auto
+      width: 480px
+      background: rgba(0,0,0,0.6)
+      margin-top: 30px
+      p
+        margin: 0
+        padding: 8px 4px
+        font-family: $mainfont
+        text-align: center
+        font-size: 32pt
+        font-weight: 600
+        color: white
+
+    .jumbo-desc
+      display: flex
+      flex-direction: column
+      align-self: flex-end
+      justify-content: center
+      height: auto
+      width: 410px
+      background: rgba(0,0,0,0.6)
+      margin-top: 40px
+      p
+        text-align: right
+        font-family: $mainfont
+        font-size: 14pt
+        font-weight: 400
+        margin: 0
+        margin-right: 8px
+        color: white
+        line-height: 25px
+        letter-spacing: .1px
+
+    .jumbo-btn
+      display: flex
+      justify-content: center
+      align-items: center
+      align-self: flex-end
+      height: 45px
+      width: 170px
+      border-radius: 3px
+      border: 1px solid white
+      background: rgba(0,0,0,0.6)
+      margin-top: 40px
+      p
+        margin: 0
+        font-family: $mainfont
+        color: white
+        letter-spacing: 1px
+        font-size: 11pt
