@@ -396,6 +396,10 @@ textarea {
   width: 100vw;
   height: auto; }
 
+@media (max-width: 960px) {
+  .content-sections-1, .content-sections-2 {
+    width: 100vw !important; } }
+
 .header {
   width: 1000px;
   height: 100px;
@@ -559,6 +563,31 @@ textarea {
         letter-spacing: 1px;
         font-size: 11pt; }
 
+@media (max-width: 1000px) {
+  .jumbotron .jumbotron-text {
+    width: 100% !important; } }
+
+@media (max-width: 980px) {
+  .jumbotron {
+    height: 350px !important; } }
+
+@media (max-width: 680px) {
+  .jumbotron {
+    height: 300px !important; }
+    .jumbotron .jumbotron-text .headline {
+      width: 400px !important; }
+      .jumbotron .jumbotron-text .headline p {
+        font-size: 26pt !important; }
+    .jumbotron .jumbotron-text .jumbo-desc {
+      width: 360px !important; }
+      .jumbotron .jumbotron-text .jumbo-desc p {
+        font-size: 12pt !important; }
+    .jumbotron .jumbotron-text .jumbo-btn {
+      height: 40px !important;
+      width: 160px !important; }
+      .jumbotron .jumbotron-text .jumbo-btn p {
+        font-size: 10pt !important; } }
+
 .panels {
   display: -ms-flexbox;
   display: flex;
@@ -648,6 +677,46 @@ textarea {
         line-height: 20px;
         text-align: center; }
 
+@media (max-width: 920px) {
+  .panels {
+    width: 100% !important; }
+    .panels .panel-container {
+      width: 100vw !important; }
+      .panels .panel-container .panel-1 {
+        padding-left: 10px !important; }
+      .panels .panel-container .panel-3 {
+        padding-right: 10px !important; } }
+
+@media (max-width: 680px) {
+  .panels .panel-container .panel-1, .panels .panel-container .panel-2, .panels .panel-container .panel-3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    width: 160px !important; }
+    .panels .panel-container .panel-1 .icon-1-container, .panels .panel-container .panel-1 .icon-2-container, .panels .panel-container .panel-1 .icon-3-container, .panels .panel-container .panel-2 .icon-1-container, .panels .panel-container .panel-2 .icon-2-container, .panels .panel-container .panel-2 .icon-3-container, .panels .panel-container .panel-3 .icon-1-container, .panels .panel-container .panel-3 .icon-2-container, .panels .panel-container .panel-3 .icon-3-container {
+      height: 140px;
+      width: 158px; }
+      .panels .panel-container .panel-1 .icon-1-container .icon-1, .panels .panel-container .panel-1 .icon-1-container .icon-2, .panels .panel-container .panel-1 .icon-1-container .icon-3, .panels .panel-container .panel-1 .icon-2-container .icon-1, .panels .panel-container .panel-1 .icon-2-container .icon-2, .panels .panel-container .panel-1 .icon-2-container .icon-3, .panels .panel-container .panel-1 .icon-3-container .icon-1, .panels .panel-container .panel-1 .icon-3-container .icon-2, .panels .panel-container .panel-1 .icon-3-container .icon-3, .panels .panel-container .panel-2 .icon-1-container .icon-1, .panels .panel-container .panel-2 .icon-1-container .icon-2, .panels .panel-container .panel-2 .icon-1-container .icon-3, .panels .panel-container .panel-2 .icon-2-container .icon-1, .panels .panel-container .panel-2 .icon-2-container .icon-2, .panels .panel-container .panel-2 .icon-2-container .icon-3, .panels .panel-container .panel-2 .icon-3-container .icon-1, .panels .panel-container .panel-2 .icon-3-container .icon-2, .panels .panel-container .panel-2 .icon-3-container .icon-3, .panels .panel-container .panel-3 .icon-1-container .icon-1, .panels .panel-container .panel-3 .icon-1-container .icon-2, .panels .panel-container .panel-3 .icon-1-container .icon-3, .panels .panel-container .panel-3 .icon-2-container .icon-1, .panels .panel-container .panel-3 .icon-2-container .icon-2, .panels .panel-container .panel-3 .icon-2-container .icon-3, .panels .panel-container .panel-3 .icon-3-container .icon-1, .panels .panel-container .panel-3 .icon-3-container .icon-2, .panels .panel-container .panel-3 .icon-3-container .icon-3 {
+        height: 80px;
+        width: 80px; }
+    .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-1, .panels .panel-container .panel-3 .title-2, .panels .panel-container .panel-3 .title-3 {
+      display: -ms-flexbox;
+      display: flex;
+      height: 30px;
+      width: 100%; }
+      .panels .panel-container .panel-1 .title-1 p, .panels .panel-container .panel-1 .title-2 p, .panels .panel-container .panel-1 .title-3 p, .panels .panel-container .panel-2 .title-1 p, .panels .panel-container .panel-2 .title-2 p, .panels .panel-container .panel-2 .title-3 p, .panels .panel-container .panel-3 .title-1 p, .panels .panel-container .panel-3 .title-2 p, .panels .panel-container .panel-3 .title-3 p {
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 14px; }
+    .panels .panel-container .panel-1 .desc-1, .panels .panel-container .panel-1 .desc-2, .panels .panel-container .panel-1 .desc-3, .panels .panel-container .panel-2 .desc-1, .panels .panel-container .panel-2 .desc-2, .panels .panel-container .panel-2 .desc-3, .panels .panel-container .panel-3 .desc-1, .panels .panel-container .panel-3 .desc-2, .panels .panel-container .panel-3 .desc-3 {
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0px 10px;
+      font-family: "Raleway", sans-serif;
+      line-height: 20px;
+      text-align: center; } }
+
 .about {
   display: -ms-flexbox;
   display: flex;
@@ -662,6 +731,10 @@ textarea {
     text-align: center;
     line-height: 25px;
     letter-spacing: 1px; }
+
+@media (max-width: 980px) {
+  .about p {
+    margin: 40px 20px !important; } }
 
 .comparison {
   display: -ms-flexbox;
@@ -855,7 +928,19 @@ textarea {
     background-image: url(/assets/images/before_after_1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: red; }
+    background-position: center; }
+
+@media (max-width: 980px) {
+  .comparison .comparison-container {
+    width: 100vw !important; }
+  .comparison .standard-company-container {
+    width: 320px !important;
+    margin-left: 20px !important; }
+  .comparison .ezhs-container {
+    width: 320px !important;
+    margin-right: 20px !important; }
+  .comparison .before-after-1 {
+    width: 100vw !important; } }
 
 .contact {
   display: -ms-flexbox;
