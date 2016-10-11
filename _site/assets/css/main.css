@@ -569,7 +569,20 @@ textarea {
 
 @media (max-width: 980px) {
   .jumbotron {
-    height: 350px !important; } }
+    height: 350px !important; }
+    .jumbotron .jumbotron-text .headline {
+      width: 400px !important; }
+      .jumbotron .jumbotron-text .headline p {
+        font-size: 26pt !important; }
+    .jumbotron .jumbotron-text .jumbo-desc {
+      width: 360px !important; }
+      .jumbotron .jumbotron-text .jumbo-desc p {
+        font-size: 12pt !important; }
+    .jumbotron .jumbotron-text .jumbo-btn {
+      height: 40px !important;
+      width: 160px !important; }
+      .jumbotron .jumbotron-text .jumbo-btn p {
+        font-size: 10pt !important; } }
 
 @media (max-width: 680px) {
   .jumbotron {
@@ -1137,3 +1150,7 @@ textarea {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; }
+
+@media (max-width: 980px) {
+  .footer {
+    width: 100vw !important; } }
