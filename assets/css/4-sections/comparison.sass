@@ -166,15 +166,28 @@
 
   .before-after-1
     display: flex
+    flex-direction: column
     align-self: center
     margin: 50px 0px
     width: 80%
+    height: auto
     height: 300px
     background:
       image: url(/assets/images/before_after_1.png)
       size: contain
       repeat: no-repeat
       position: center
+
+  .gallery
+    display: flex
+    justify-content: center
+    margin-top: -20px
+    margin-bottom: 50px
+    p
+      margin: 0
+      font-family: $mainfont
+      color: $gunmetal
+      text-decoration: underline
 
 
 
@@ -192,4 +205,4 @@
       margin-right: 20px !important
 
     .before-after-1
-      width: 100vw !important  
+      width: 100vw !important

@@ -373,7 +373,7 @@ textarea {
   width: 100vw;
   height: auto; }
 
-.content-sections-1, .content-sections-2 {
+.content-sections-1, .content-sections-2, .content-sections-3 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -391,6 +391,15 @@ textarea {
   -ms-flex-direction: column;
       flex-direction: column;
   background: #6B4086;
+  width: 100vw;
+  height: auto; }
+
+.contact-cta-section {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: #A2AEC0;
   width: 100vw;
   height: auto; }
 
@@ -931,15 +940,30 @@ textarea {
   .comparison .before-after-1 {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
     -ms-flex-item-align: center;
         align-self: center;
     margin: 50px 0px;
     width: 80%;
+    height: auto;
     height: 300px;
     background-image: url(/assets/images/before_after_1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
+  .comparison .gallery {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 50px; }
+    .comparison .gallery p {
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      color: #292F36;
+      text-decoration: underline; }
 
 @media (max-width: 980px) {
   .comparison .comparison-container {
@@ -953,6 +977,51 @@ textarea {
   .comparison .before-after-1 {
     width: 100vw !important; } }
 
+.contact-cta {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background: #A2AEC0;
+  color: white; }
+  .contact-cta .headline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 650px;
+    margin-bottom: 40px;
+    text-align: center; }
+    .contact-cta .headline p {
+      padding-top: 30px;
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      font-size: 22pt;
+      font-weight: bold; }
+  .contact-cta .cta-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    text-align: center;
+    width: 650px;
+    padding-bottom: 30px; }
+    .contact-cta .cta-text p {
+      margin: 0;
+      font-family: "Raleway", sans-serif;
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      font-weight: 600; }
+
 .contact {
   display: -ms-flexbox;
   display: flex;
@@ -960,46 +1029,6 @@ textarea {
       flex-direction: column;
   height: auto;
   margin-bottom: 20px; }
-  .contact .contact-cta {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center; }
-    .contact .contact-cta .headline {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-align: center;
-          align-items: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-      width: 650px;
-      margin-bottom: 40px;
-      text-align: center; }
-      .contact .contact-cta .headline p {
-        margin: 0;
-        font-family: "Raleway", sans-serif;
-        font-size: 22pt;
-        font-weight: bold; }
-    .contact .contact-cta .cta-text {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-align: center;
-          align-items: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-      text-align: center;
-      width: 650px; }
-      .contact .contact-cta .cta-text p {
-        margin: 0;
-        font-family: "Raleway", sans-serif;
-        font-size: 14px;
-        line-height: 25px;
-        letter-spacing: 1px;
-        font-weight: 600; }
   .contact .contact-form {
     margin: auto;
     margin-top: 40px;
@@ -1040,12 +1069,12 @@ textarea {
       .contact .contact-form .form-container .phone .yourphone {
         width: 350px;
         height: 30px;
-        border: 1px solid #6B4086;
+        border: 1px solid #292F36;
         border-radius: 3px; }
       .contact .contact-form .form-container .message .yourmessage {
         width: 550px;
         height: 200px;
-        border: 1px solid #6B4086;
+        border: 1px solid #292F36;
         border-radius: 3px;
         text-align: top;
         resize: none; }
@@ -1062,6 +1091,17 @@ textarea {
         background-color: #2ECC71;
         color: white;
         border: 1px solid white; }
+    .contact .contact-form .contact-phone {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-item-align: center;
+          align-self: center;
+      text-align: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+      .contact .contact-form .contact-phone p {
+        font-family: "Raleway", sans-serif;
+        font-size: 16pt; }
 
 .footer {
   display: -ms-flexbox;
