@@ -977,6 +977,18 @@ textarea {
   .comparison .before-after-1 {
     width: 100vw !important; } }
 
+@media (max-width: 710px) {
+  .comparison-container {
+    display: block !important; }
+    .comparison-container .standard-company-container,
+    .comparison-container .ezhs-container {
+      margin: auto !important; }
+    .comparison-container .standard-company-container {
+      margin-top: 20px !important;
+      margin-bottom: 50px !important; }
+  .cta p {
+    padding: 0px 10px !important; } }
+
 .contact-cta {
   display: -ms-flexbox;
   display: flex;
@@ -1021,6 +1033,14 @@ textarea {
       line-height: 25px;
       letter-spacing: 1px;
       font-weight: 600; }
+
+@media (max-width: 760px) {
+  .contact-cta {
+    width: 100vw !important; }
+    .contact-cta .headline, .contact-cta .cta-text {
+      width: 100% !important; }
+      .contact-cta .headline p, .contact-cta .cta-text p {
+        padding: 20px 20px !important; } }
 
 .contact {
   display: -ms-flexbox;
@@ -1113,6 +1133,20 @@ textarea {
     .contact .contact-form {
       -ms-flex-item-align: center !important;
           align-self: center !important; } }
+
+@media (max-width: 600px) {
+  .contact .contact-form .name .yourname,
+  .contact .contact-form .name .youremail,
+  .contact .contact-form .name .yourphone,
+  .contact .contact-form .email .yourname,
+  .contact .contact-form .email .youremail,
+  .contact .contact-form .email .yourphone,
+  .contact .contact-form .phone .yourname,
+  .contact .contact-form .phone .youremail,
+  .contact .contact-form .phone .yourphone {
+    width: 70% !important; }
+  .contact .contact-form .message .yourmessage {
+    width: 90vw !important; } }
 
 .footer {
   display: -ms-flexbox;
