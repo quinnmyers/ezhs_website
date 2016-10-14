@@ -5,6 +5,8 @@
   margin-bottom: 20px
 
   .contact-form
+    display: flex
+    flex-direction: column
     margin: auto
     margin-top: 40px
     margin-bottom: 40px
@@ -69,3 +71,10 @@
       p
         font-family: $mainfont
         font-size: 16pt
+
+
+@media (max-width: 980px)
+  .contact
+    width: 100vw !important
+    .contact-form
+      align-self: center !important
