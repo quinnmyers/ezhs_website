@@ -453,6 +453,40 @@ textarea {
           font: "Raleway", sans-serif; }
         .header .header-wrap .top-nav ul.desktop-nav a:hover, .header .header-wrap .top-nav a a:hover {
           text-decoration: underline; }
+    .header .header-wrap .hamburger {
+      display: none;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      height: 25px;
+      width: 40px;
+      -ms-flex-item-align: center;
+          align-self: center;
+      margin-right: 20px; }
+      .header .header-wrap .hamburger .line-1, .header .header-wrap .hamburger .line-2, .header .header-wrap .hamburger .line-3 {
+        height: 2px;
+        width: 100%;
+        background: #6B4086; }
+
+.mobile-nav {
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin-right: 20px; }
+  .mobile-nav ul {
+    list-style: none; }
+    .mobile-nav ul a, .mobile-nav ul a:visited {
+      text-decoration: none;
+      color: #6B4086; }
+    .mobile-nav ul li {
+      margin-bottom: 15px; }
+
+.is-active {
+  display: -ms-flexbox;
+  display: flex; }
 
 @media (max-width: 1000px) {
   .header {
@@ -480,6 +514,19 @@ textarea {
           align-self: center !important; }
       .header .top-nav ul.desktop-nav, .header .top-nav a {
         font-size: 12pt !important; } }
+
+@media (max-width: 620px) {
+  .header .header-wrap .brand {
+    margin-left: 5px !important;
+    margin-top: 10px !important; }
+  .header .header-wrap .top-nav {
+    display: none !important; }
+  .header .header-wrap .hamburger {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin-top: 10px !important; }
+  .mobile-nav {
+    text-align: right !important; } }
 
 .jumbotron {
   display: -ms-flexbox;
@@ -1050,9 +1097,7 @@ textarea {
   .contact-cta {
     width: 100vw !important; }
     .contact-cta .headline, .contact-cta .cta-text {
-      width: 100% !important; }
-      .contact-cta .headline p, .contact-cta .cta-text p {
-        padding: 20px 20px !important; } }
+      width: 100% !important; } }
 
 .contact {
   display: -ms-flexbox;
