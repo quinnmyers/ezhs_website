@@ -482,7 +482,7 @@ textarea {
       text-decoration: none;
       color: #6B4086; }
     .mobile-nav ul li {
-      margin-bottom: 15px; }
+      margin-bottom: 20px; }
 
 .is-active {
   display: -ms-flexbox;
@@ -518,15 +518,31 @@ textarea {
 @media (max-width: 620px) {
   .header .header-wrap .brand {
     margin-left: 5px !important;
-    margin-top: 10px !important; }
+    margin: 10px 0px !important; }
   .header .header-wrap .top-nav {
     display: none !important; }
   .header .header-wrap .hamburger {
     display: -ms-flexbox !important;
-    display: flex !important;
-    margin-top: 10px !important; }
+    display: flex !important; }
   .mobile-nav {
     text-align: right !important; } }
+
+@media (max-width: 380px) {
+  .header {
+    height: auto !important; }
+    .header .brand {
+      height: 50px !important;
+      width: 250px !important;
+      -ms-flex-item-align: center !important;
+          align-self: center !important; }
+    .header .top-nav {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      width: auto !important;
+      -ms-flex-item-align: center !important;
+          align-self: center !important; }
+      .header .top-nav ul.desktop-nav, .header .top-nav a {
+        font-size: 12pt !important; } }
 
 .jumbotron {
   display: -ms-flexbox;
@@ -654,6 +670,33 @@ textarea {
       width: 160px !important; }
       .jumbotron .jumbotron-text .jumbo-btn p {
         font-size: 10pt !important; } }
+
+@media (max-width: 420px) {
+  .jumbotron .jumbotron-text .headline {
+    width: 310px !important; }
+    .jumbotron .jumbotron-text .headline p {
+      font-size: 20pt !important; }
+  .jumbotron .jumbotron-text .jumbo-desc {
+    width: 320px !important; }
+    .jumbotron .jumbotron-text .jumbo-desc p {
+      font-size: 10pt !important; }
+  .jumbotron .jumbotron-text .jumbo-btn {
+    height: 35px !important;
+    width: 130px !important; }
+    .jumbotron .jumbotron-text .jumbo-btn p {
+      font-size: 8pt !important; } }
+
+@media (max-width: 380px) {
+  .jumbotron {
+    height: 300px !important; }
+    .jumbotron .jumbotron-text .headline {
+      width: 290px !important; }
+      .jumbotron .jumbotron-text .headline p {
+        font-size: 18pt !important; }
+    .jumbotron .jumbotron-text .jumbo-desc {
+      width: 300px !important; }
+      .jumbotron .jumbotron-text .jumbo-desc p {
+        font-size: 9pt !important; } }
 
 .panels {
   display: -ms-flexbox;
@@ -1048,6 +1091,25 @@ textarea {
   .cta p {
     padding: 0px 10px !important; } }
 
+@media (max-width: 420px) {
+  .comparison-container .ezhs-container {
+    margin-bottom: -100px !important; }
+  .before-after-1 {
+    margin-bottom: -30px !important; } }
+
+@media (max-width: 360px) {
+  .comparison-container .standard-company-container,
+  .comparison-container .ezhs-container {
+    width: 300px !important; }
+    .comparison-container .standard-company-container .breakdown-container,
+    .comparison-container .ezhs-container .breakdown-container {
+      font-size: 10pt !important; }
+    .comparison-container .standard-company-container .total-container-1 p,
+    .comparison-container .standard-company-container .total-container-2 p,
+    .comparison-container .ezhs-container .total-container-1 p,
+    .comparison-container .ezhs-container .total-container-2 p {
+      font-size: 12pt !important; } }
+
 .contact-cta {
   display: -ms-flexbox;
   display: flex;
@@ -1098,6 +1160,15 @@ textarea {
     width: 100vw !important; }
     .contact-cta .headline, .contact-cta .cta-text {
       width: 100% !important; } }
+
+@media (max-width: 500px) {
+  .contact-cta .headline {
+    margin-bottom: 20px !important; }
+    .contact-cta .headline p {
+      font-size: 18pt !important; }
+  .contact-cta .cta-text p {
+    font-size: 10pt !important;
+    padding: 0px 10px !important; } }
 
 .contact {
   display: -ms-flexbox;
@@ -1325,3 +1396,10 @@ textarea {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center; } }
+
+@media (max-width: 380px) {
+  .footer {
+    -ms-flex-direction: column !important;
+        flex-direction: column !important; }
+    .footer .ezhs-footer {
+      margin-bottom: 10px !important; } }
