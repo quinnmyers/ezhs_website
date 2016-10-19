@@ -3,7 +3,6 @@
   flex-direction: column
   height: auto
   width: 100%
-
   .cta
     display: flex
     height: auto
@@ -17,7 +16,6 @@
     color: $gunmetal
     p
       margin: 0
-
   .home-size
     display: flex
     flex-direction: column
@@ -42,7 +40,6 @@
         size: contain
         position: center
         repeat: no-repeat
-
   .comparison-container
     display: flex
     flex-direction: row
@@ -51,13 +48,11 @@
     width: 900px
     height: auto
     margin-top: 30px
-
     .standard-company-container
       display: flex
       flex-direction: column
       height: auto
       width: 360px
-
     .ezhs-container
       display: flex
       flex-direction: column
@@ -66,8 +61,6 @@
       .ezhs
         .breakdown-container
           margin-top: -90px
-
-
     .standard-company-container, .ezhs-container
       .desc
         font-family: $mainfont
@@ -77,13 +70,11 @@
         line-height: 25px
         text-align: center
         font-weight: bold
-
     .standard-company, .ezhs
       display: flex
       flex-direction: column
       justify-content: space-between
       height: 300px
-
       .breakdown-container
         display: flex
         flex-direction: row
@@ -91,9 +82,6 @@
         margin-top: -30px
         font-family: $mainfont
         color: $gunmetal
-
-
-
       .title
         height: 30px
         width: 100%
@@ -105,13 +93,10 @@
         border-bottom: 3px solid $purple
         p
           margin: 0
-
       .total-container-1
         border: 2px solid $red
-
       .total-container-2
         border: 2px solid $green
-
       .total-container-1, .total-container-2
         display: flex
         flex-direction: row
@@ -120,7 +105,6 @@
         bottom: 0 auto !important
         height: 50px
         width: 100%
-
         .total-price
           display: flex
           flex-direction: row
@@ -163,7 +147,6 @@
             position: center
             repeat: no-repeat
             size: contain
-
   .before-after-1
     display: flex
     flex-direction: column
@@ -177,7 +160,6 @@
       size: contain
       repeat: no-repeat
       position: center
-
   .gallery
     display: flex
     justify-content: center
@@ -188,8 +170,6 @@
       font-family: $mainfont
       color: $gunmetal
       text-decoration: underline
-
-
 
 @media (max-width: 980px)
   .comparison
@@ -213,11 +193,28 @@
     .standard-company-container,
     .ezhs-container
       margin: auto !important
-
     .standard-company-container
       margin-top: 20px !important
       margin-bottom: 50px !important
-
   .cta
     p
       padding: 0px 10px !important
+
+@media (max-width: 420px)
+  .comparison-container
+    .ezhs-container
+      margin-bottom: -100px !important
+  .before-after-1
+    margin-bottom: -30px !important
+
+@media (max-width: 360px)
+  .comparison-container
+    .standard-company-container,
+    .ezhs-container
+      width: 300px !important
+      .breakdown-container
+        font-size: 10pt !important
+      .total-container-1,
+      .total-container-2
+        p
+          font-size: 12pt !important
