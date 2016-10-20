@@ -390,7 +390,7 @@ textarea {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: #6B4086;
+  background: #ABA633;
   width: 100vw;
   height: auto; }
 
@@ -425,7 +425,7 @@ textarea {
       height: 100px;
       width: 400px;
       margin-left: 15px;
-      background-image: url(/assets/images/ezhs_logo.svg);
+      background-image: url(/assets/images/ezhs_logo_outlines.svg);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center; }
@@ -749,7 +749,7 @@ textarea {
         .panels .panel-container .panel-1 .icon-1-container .icon-1, .panels .panel-container .panel-2 .icon-1-container .icon-1, .panels .panel-container .panel-3 .icon-1-container .icon-1 {
           background-image: url(/assets/images/brush_icon.svg); }
       .panels .panel-container .panel-1 .icon-2-container, .panels .panel-container .panel-2 .icon-2-container, .panels .panel-container .panel-3 .icon-2-container {
-        border: 1px solid #ABA633; }
+        border: 1px solid #6B4086; }
         .panels .panel-container .panel-1 .icon-2-container .icon-2, .panels .panel-container .panel-2 .icon-2-container .icon-2, .panels .panel-container .panel-3 .icon-2-container .icon-2 {
           background-image: url(/assets/images/cash_icon.svg); }
       .panels .panel-container .panel-1 .icon-3-container, .panels .panel-container .panel-2 .icon-3-container, .panels .panel-container .panel-3 .icon-3-container {
@@ -776,7 +776,7 @@ textarea {
       .panels .panel-container .panel-1 .title-1, .panels .panel-container .panel-2 .title-1, .panels .panel-container .panel-3 .title-1 {
         background: #C57246; }
       .panels .panel-container .panel-1 .title-2, .panels .panel-container .panel-2 .title-2, .panels .panel-container .panel-3 .title-2 {
-        background: #ABA633; }
+        background: #6B4086; }
       .panels .panel-container .panel-1 .title-3, .panels .panel-container .panel-2 .title-3, .panels .panel-container .panel-3 .title-3 {
         background: #A2AEC0; }
       .panels .panel-container .panel-1 .desc-1, .panels .panel-container .panel-1 .desc-2, .panels .panel-container .panel-1 .desc-3, .panels .panel-container .panel-2 .desc-1, .panels .panel-container .panel-2 .desc-2, .panels .panel-container .panel-2 .desc-3, .panels .panel-container .panel-3 .desc-1, .panels .panel-container .panel-3 .desc-2, .panels .panel-container .panel-3 .desc-3 {
@@ -1133,6 +1133,8 @@ textarea {
     text-align: center; }
     .contact-cta .headline p {
       padding-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
       margin: 0;
       font-family: "Raleway", sans-serif;
       font-size: 22pt;
@@ -1301,7 +1303,7 @@ textarea {
       display: flex;
       height: 70px;
       width: 350px;
-      background-image: url(/assets/images/ezhs_logo.svg);
+      background-image: url(/assets/images/ezhs_logo_outlines.svg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; }
@@ -1362,6 +1364,17 @@ textarea {
         background-size: contain;
         background-position: center; }
 
+.copyright {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 30px; }
+
 @media (max-width: 980px) {
   .footer {
     width: 100vw !important; } }
@@ -1402,4 +1415,6 @@ textarea {
     -ms-flex-direction: column !important;
         flex-direction: column !important; }
     .footer .ezhs-footer {
-      margin-bottom: 10px !important; } }
+      margin-bottom: 10px !important; }
+  .copyright {
+    font-size: 8pt !important; } }
